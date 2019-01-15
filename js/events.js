@@ -10,8 +10,8 @@ function frameIt(){
     });
 }
 function pressIt(){
-  $("input#typing").on('keydown', function() {
-    if(event.key == "G"){
+  $("input#typing").on('keydown', function(e) {
+    if(e.key == "G"){
         alert('G was pressed');
     }
   });
