@@ -4,10 +4,8 @@ $(document).ready(function(){
 
 // call functions here
 function getIt(){
-  $(document).on('click', function(key) {
-  if(key.which == "p"){
+  $(document.p).on('click', function(key) {
       alert('Hey!');
-  }
 });
 }
 
