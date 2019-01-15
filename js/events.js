@@ -10,8 +10,8 @@ function frameIt(){
     });
 }
 function pressIt(){
-  $("input").on('keydown', function(key) {
-    if("input#typing" == 71){
+  $("input#typing").on('keydown', function(key) {
+    if("input:first" == 71){
         alert('g was pressed');
     }
   });
