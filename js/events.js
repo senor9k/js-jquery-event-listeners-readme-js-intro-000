@@ -10,7 +10,7 @@ function frameIt(){
     });
 }
 function pressIt(){
-  $("input#typing").on('keydown', function(key) {
+  $("input#typing").on('keypress', function(key) {
     if("input:first" == 71){
         alert('G was pressed');
     }
